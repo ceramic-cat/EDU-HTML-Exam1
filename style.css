@@ -78,6 +78,12 @@ nav li {
   text-align: left;
 }
 
+.signup-form
+{
+  padding:5px;
+}
+
+
 .course-table td
 {
   vertical-align: text-top;

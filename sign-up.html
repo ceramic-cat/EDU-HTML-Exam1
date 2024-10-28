@@ -24,26 +24,45 @@
         <div class="container">
             <h2>Kursanmälan</h2>
             <form>
-                <label for="name">Namn</label> <br>
-                <input type="text" id="name" name="name" required><br>
+                <div class="signup-form">
+                    <label for="name">Namn</label> <br>
+                    <input type="text" id="name" name="name" required>
+    
+                </div>
 
-                <label for="email">E-post adress</label><br>
-                <input type="email" id="email" name="email" required><br>
-
+                <div class="signup-form">
+                    <label for="email">E-post adress</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="signup-form">
                 <!-- Pattern i telefonnummer kräver siffror och minst 5 tecken -->
-                <label for="phonenr">Telefonnummer</label><br>
-                <input type="tel" id="phonenr" name="phonenr" required pattern="[0-9]{5,}"><br>
+                    <label for="phonenr">Telefonnummer</label><br>
+                    <input type="tel" id="phonenr" name="phonenr" required pattern="[0-9]{5,}">
+                </div>
+                
+                <div class="signup-form">
+                    <label for="course">Kursval</label><br>
+                    <select id="course" name="course" required>
+                        <option value="" selected disabled hidden>Välj kurs</option>
+                        <option value="basic-knitting">Grundläggande Stickning</option>
+                        <option value="color-knitting">Flerfärgsstickning</option>
+                        <option value="basic-crochet">Grundläggande Virkning</option>
+                        <option value="spindle-spin">Spinna med slända, nybörjare</option>
+                    </select>
+                </div>
+                
+                <div class="signup-form">
+                    
+                    <label for="misc">Övrig information</label><br>
+                    <input type="text" id="misc" name="misc">
+                </div>
+                
+                <div class="signup-form">   
+                    <input type="submit" value="Skicka Anmälan">
+                </div>
 
-                <label for="course">Kursval</label><br>
-                <select id="course" name="course" required>
-                    <option value="Kurs1">Kurs1</option>
-                </select>
-                <br>
 
-                <label for="misc">Övrig information</label><br>
-                <input type="text" id="misc" name="misc"><br>
-
-                <input type="submit" value="Skicka Anmälan">
 
 
 
