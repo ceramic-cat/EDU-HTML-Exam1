@@ -11,8 +11,10 @@ Har dubbelkollat att skelettet går genom HTML-valideraren.
 Börjat fixa lite med kursanmälans-formuläret. Framtida grej att fixa vore att göra om formuläret till en mail-to så att infon i formuläret skickades iväg någonstans.
 
 ## 10-29
-Dags att bli klar! Har lagt till text på framsidan för intro och recensioner. Överväger att göra om tabeller på första sidan till div'ar för att kunna göra en grid lösning. Får se vad som hinns med. 
+Dags att bli klar! Har lagt till text på framsidan för intro och recensioner.
 
-Fixat till så att hero-container på första sidan är responsiv grid. Ändrade till att ha en gemensam bakgrund för bild och intro-text.
+Har gjort om tabeller med info till 2 separata div-containers med grid för att vara responsiva vid små skärmar.
 
 Upptäckte att footer fortfarande bråkade, så la till ordentliga marginaler.
+
+Har problem med storleken av h1 rubriken mellan de olika sidorna. När jag kollar på den i edge så ser det ut som att blocket är gigantiskt på index och 494x624 på övriga sidor... Ska försöka lista ut vad som spökar.
