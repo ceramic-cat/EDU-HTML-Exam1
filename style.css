@@ -14,11 +14,11 @@ header{
 text-align: center;
 font-size: 24px;
 }
-
-.heading
+h1
 {
-  color: #693730;
+  font-size: 24px;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -89,23 +89,26 @@ nav li {
   vertical-align: text-top;
 }
 
-  footer
-  {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    
-  }
+footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+ background-color: #EEE2DF; 
+}
 
 /*
 För skärmar större än iPhone 14 Pro Max
 */
-@media only screen and (max-width: 550px)
+@media only screen and (min-width: 550px)
 {
- h1
+  header
+  {font-size: 12px;}
+  h1
  {
-  font-size: 32px;
+  font-size: 40px;
  }
+
 }
