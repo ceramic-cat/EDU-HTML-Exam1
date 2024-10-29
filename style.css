@@ -1,171 +1,150 @@
+/* Rensning av padding och margin + generell bakgrundsfärg. */
 html {
   min-width: 100%;
   padding: 0;
   margin: 0;
-  background-color: #EEE2DF;
+  background-color: #eee2df;
 }
 
 * {
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-color: #693730;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #693730;
 }
 
-header{
-text-align: center;
-margin-bottom: 10px;
-}
-h1
-{
-  font-size: 30px;
-}
-
-h2
-{
-  font-size: 20;
-}
-
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    text-align: center;
-    padding: 0;
-    overflow: hidden;
-    background-color: #C89F9C;
-    font-size: 16px;
-  }
-  
-nav li {
-    float: left;
-  }
-  
-  nav li a {
-    display: block;
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-    background-color: #C89F9C;
-    color: #EED7C5;
-  }
-  
-  nav li a:hover {
-    background-color: #EED7C5;
-    color: #693730;
-  }
-
-  main{
-
-    margin-bottom: 140px;
-  }
-  
-.container
-{ 
-    margin: auto;
-    padding: 10px;
-    color: #693730;
-    overflow-x: auto;
-}
-.hero-container
-{
-  display: inline-grid;
-  grid-template-columns: 100%;
-  row-gap: 12px;
-  column-gap: 12px;
-  align-items: center;
-  background-color: #C97C5D;
+header {
+  text-align: center;
   margin-bottom: 10px;
 }
 
-
-  .hero
-  {
-    padding: 0px 10px 10px 20px;
-
-  }
-
-  .portrait
-  {
-    text-align: center;
-    padding-top: 10px;
-  }
-
-
-  .review-container
-  {
-    display: inline-grid;
-    grid-template-columns: 100%;
-    row-gap: 12px;
-    column-gap: 12px;
-    /* align-items: center; */
-    margin-bottom: 10px;
-  }
-.review
-{
-  
-  background-color: #C89F9C;
-  padding: 19px;
+main {
+  margin-bottom: 140px;
 }
 
-.course-table
-{
-  width: 100%;
-}
-
-.course-table th
-{
-  text-align: left;
-}
-
-.signup-form
-{
-  padding:5px;
-}
-
-
-.course-table td
-{
-  vertical-align: text-top;
-}
-
-footer
-{
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   min-height: 40px;
   max-height: 50px;
-  padding: 10px 0px;
   padding-top: 10px;
-  margin-top:30px;
+  margin-top: 30px;
   text-align: center;
- background-color: #EEE2DF; 
+  background-color: #eee2df;
+}
+
+/* Rubriker*/
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20;
+}
+
+/* Navigering */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c89f9c;
+  font-size: 16px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  background-color: #c89f9c;
+  color: #eed7c5;
+}
+
+nav li a:hover {
+  background-color: #eed7c5;
+  color: #693730;
+}
+
+.container {
+  margin: auto;
+  padding: 10px;
+  overflow-x: auto;
+}
+.hero-container {
+  display: inline-grid;
+  grid-template-columns: 100%;
+  row-gap: 12px;
+  column-gap: 12px;
+  align-items: center;
+  background-color: #c97c5d;
+  margin-bottom: 10px;
+}
+
+.hero {
+  padding: 0px 10px 10px 20px;
+}
+
+.portrait {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.review-container {
+  display: inline-grid;
+  grid-template-columns: 100%;
+  row-gap: 12px;
+  column-gap: 12px;
+  margin-bottom: 10px;
+}
+
+.review {
+  background-color: #c89f9c;
+  padding: 19px;
+}
+
+.course-table {
+  width: 100%;
+}
+
+.course-table th {
+  text-align: left;
+}
+
+.signup-form {
+  padding: 5px;
+}
+
+.course-table td {
+  vertical-align: text-top;
 }
 
 /*
 För skärmar större än iPhone 14 Pro Max
 */
-@media only screen and (min-width: 650px)
-{
-  header
-  {font-size: 12px;}
-  h1
- {
-  font-size: 40px;
- }
+@media only screen and (min-width: 650px) {
+  header {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 40px;
+  }
 
- nav ul {
-  font-size: 18px;
- }
+  nav ul {
+    font-size: 18px;
+  }
 
- .hero-container
- {
-  grid-template-columns: repeat(2,1fr);
- }
+  .hero-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
- .review-container
- {
-  grid-template-columns: repeat(2,1fr);
- }
-
+  .review-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

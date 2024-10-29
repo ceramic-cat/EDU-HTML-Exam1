@@ -17,4 +17,4 @@ Har gjort om tabeller med info till 2 separata div-containers med grid för att 
 
 Upptäckte att footer fortfarande bråkade, så la till ordentliga marginaler.
 
-Har problem med storleken av h1 rubriken mellan de olika sidorna. När jag kollar på den i edge så ser det ut som att blocket är gigantiskt på index och 494x624 på övriga sidor... Ska försöka lista ut vad som spökar.
+Spenderade mycket tid med att jaga spöken, index såg lite annorlunda ut än resten av sidorna. Efter mängder med felsökning visade det bero på att jag var inzoomad i edge. Gillar lättlösta problem, men inte självförvållade. 
