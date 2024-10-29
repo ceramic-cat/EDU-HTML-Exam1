@@ -13,6 +13,7 @@ color: #693730;
 header{
 text-align: center;
 font-size: 24px;
+margin-bottom: 10px;
 }
 h1
 {
@@ -48,9 +49,7 @@ nav li {
   }
 
   main{
-    /* position: absolute;
-    margin-top: 130px;
-    overflow: scroll; */
+
     margin-bottom: 140px;
   }
   
@@ -68,13 +67,16 @@ nav li {
   row-gap: 12px;
   column-gap: 12px;
   color: #693730;
+  align-items: center;
+  background-color: #C97C5D;
+  margin-bottom: 10px;
 }
+
+
   .hero
   {
-    background-color: #C97C5D;
-    padding: 5%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 0px 10px 10px 20px;
+
   }
 
   .portrait
