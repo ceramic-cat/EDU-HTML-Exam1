@@ -47,6 +47,12 @@ nav li {
     color: #693730;
   }
 
+  main{
+    /* position: absolute;
+    margin-top: 130px;
+    overflow: scroll; */
+    margin-bottom: 140px;
+  }
   
 .container
 { 
@@ -55,11 +61,26 @@ nav li {
     color: #693730;
     overflow-x: auto;
 }
-  .hero td
+.hero-container
+{
+  display: inline-grid;
+  grid-template-columns: 100%;
+  row-gap: 12px;
+  column-gap: 12px;
+  color: #693730;
+}
+  .hero
   {
-    padding: 24px;
     background-color: #C97C5D;
-    margin: 3em;
+    padding: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .portrait
+  {
+    text-align: center;
+    
   }
 .review
 {
@@ -95,6 +116,11 @@ footer
   left: 0;
   bottom: 0;
   width: 100%;
+  min-height: 40px;
+  max-height: 50px;
+  padding: 10px 0px;
+  padding-top: 10px;
+  margin-top:30px;
   text-align: center;
  background-color: #EEE2DF; 
 }
@@ -102,13 +128,18 @@ footer
 /*
 För skärmar större än iPhone 14 Pro Max
 */
-@media only screen and (min-width: 550px)
+@media only screen and (min-width: 650px)
 {
   header
   {font-size: 12px;}
   h1
  {
   font-size: 40px;
+ }
+
+ .hero-container
+ {
+  grid-template-columns: repeat(2,1fr);
  }
 
 }
