@@ -12,7 +12,6 @@ html {
   font-style: normal;
 }
 
-
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #693730;
@@ -47,7 +46,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20;
+  font-size: 20px;
 }
 
 /* Navigering */
@@ -103,6 +102,9 @@ nav li a:hover {
   padding-top: 10px;
 }
 
+#bild {
+  width: 275px;
+}
 .review-container {
   display: inline-grid;
   grid-template-columns: 100%;
@@ -156,12 +158,11 @@ För skärmar större än iPhone 14 Pro Max
   }
 }
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width: 1200px) {
   h1 {
     font-size: 80px;
   }
   h2 {
     font-size: 26px;
-
   }
 }
